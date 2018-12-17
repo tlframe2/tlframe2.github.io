@@ -110,6 +110,11 @@ header.masthead {
   background-size: cover;
 }
 
+#highscores-masthead {
+  background: url("../img/highscores-masthead.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 header.masthead .overlay {
   position: absolute;
   background-color: #212529;
@@ -192,4 +197,13 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 2rem;
+}
+
+#site-link {
+  color: #F05F40;
+  text-decoration: none;
+}
+
+#site-link:hover {
+  border-bottom: 1px dotted #F05F40;
 }
